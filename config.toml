@@ -1,4 +1,4 @@
-baseURL = "https://zexuannotes.com/"
+baseURL = "zexuano.github.io"
 title = "zexuannotes"
 theme = "hugo-casper3"
 author = "Ze Xuan Ong"
