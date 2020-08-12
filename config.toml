@@ -1,0 +1,44 @@
+baseURL = "https://zexuannotes.com/"
+title = "zexuannotes"
+theme = "hugo-casper3"
+author = "Ze Xuan Ong"
+author-slug = "zexuano"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+copyright = "Copyright © 2018–2020, zexuannotes"
+
+[params]
+  feature_image = "background.jpg"  
+  logo = "logo.png"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/authors/zexuano/"
+    weight = 20    
+  [[menu.main]]
+    identifier = "dev"
+    name = "Dev"
+    url = "/tags/dev/"
+    weight = 30
+  [[menu.main]]
+    identifier = "language"
+    name = "Language"
+    url = "/tags/language/"
+    weight = 40
+  [[menu.main]]
+    identifier = "life"
+    name = "Life"
+    url = "/tags/life/"
+    weight = 50
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"

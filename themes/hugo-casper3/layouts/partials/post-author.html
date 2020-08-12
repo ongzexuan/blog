@@ -1,0 +1,13 @@
+<ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image"><img src="/{{ default "zexuano" (.Param "author-slug") }}.png"></div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>{{ .Param "author" }}</h2>
+                </div>
+            </div>
+        </div>
+        <a href="/authors/{{ .Param "author-slug" }}" class="author-avatar author-profile-image"><img src="/{{ default "zexuano" (.Param "author-slug") }}.png"></a>
+    </li>
+</ul>

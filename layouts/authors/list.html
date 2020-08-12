@@ -1,0 +1,45 @@
+{{ define "body_class" }} post-template {{ end }}
+
+{{ define "main" }}
+
+<header class="site-home-header">
+    {{ .Scratch.Set "background" .Params.feature_image }}
+    {{- partial "header-background.html" . -}}
+        <div class="inner">
+            {{- partial "site-nav.html" . -}}
+            <div class="site-header-content">
+                <h1 class="site-title">
+                    {{ if .Params.photo }}
+                        <img width="75%" height="75%" src="{{ .Params.photo }}" alt="{{ .Params.name }}" />                        
+                    {{ end }}
+                </h1>
+                <h2 class="site-description">{{ $.Site.Params.description }}</h2>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<header class="site-header">
+    {{- partial "site-header.html" $ -}}
+</header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post {{ if not (.Param "feature_image") }} no-image {{ end }}">
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    {{ .Content }}
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+{{- partial "post-navigation.html" . -}}
+
+{{ end }}
