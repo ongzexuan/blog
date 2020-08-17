@@ -2,10 +2,9 @@
 title: "Latex: Five Line Gloss for Linguistics Typesetting"
 date: 2019-01-16T00:49:17-04:00
 author: Ze Xuan Ong
-tags: 
-    - "language"
 feature_image: /five-line-glossing-expex/feature.png
 draft: false
+tags: ["language"]
 summary: "I'm not great with LaTex, but I need a five-line gloss for the conlang I'm building for Minecraft (for a class). Using the `expex` package, we can bootstrap a five-line gloss from the tools it provides out of the box."
 ---
 

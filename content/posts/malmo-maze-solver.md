@@ -4,6 +4,7 @@ date: 2018-01-04T00:49:17-04:00
 author: Ze Xuan Ong
 feature_image: /malmo-maze-solver/feature.png
 draft: false
+tags: ["projects"]
 summary: "I'd like a Minecraft bot that cuts trees, mines coal, harvests wheat, digs holes, etc etc. I suppose we could start by trying to make one that stays alive!"
 ---
 

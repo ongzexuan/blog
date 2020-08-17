@@ -28,15 +28,20 @@ copyright = "Copyright © 2018–2020, zexuannotes"
     url = "/tags/dev/"
     weight = 30
   [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/tags/projects/"
+    weight = 40
+  [[menu.main]]
     identifier = "language"
     name = "Language"
     url = "/tags/language/"
-    weight = 40
+    weight = 50
   [[menu.main]]
     identifier = "life"
     name = "Life"
     url = "/tags/life/"
-    weight = 50
+    weight = 60
 
 [taxonomies]
   author = "authors"
