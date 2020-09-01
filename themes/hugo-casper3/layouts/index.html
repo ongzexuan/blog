@@ -4,6 +4,7 @@
 
 <header class="site-home-header">
     {{ .Scratch.Set "background" .Params.feature_image }}
+    {{ .Scratch.Set "" .Params.disqusShortname }}
     {{- partial "header-background.html" . -}}
         <div class="inner">
             {{- partial "site-nav.html" . -}}
@@ -30,8 +31,7 @@
             {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
             {{ range $index, $element := $pages }}
                 {{- partial "post-card.html" (dict "context" . "index" $index "home" $.IsHome) -}}
-            {{ end }}
-            {{ template "_internal/disqus.html" . }}
+            {{ end }}            
         </div>
     </div>
 </main>

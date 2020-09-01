@@ -13,6 +13,7 @@ disqusShortname = "zexuannotes"
   feature_image = "background.jpg"  
   logo = "logo.png"
   env = "PUBLIC"
+  disqus = false
 
 [menu]
   [[menu.main]]
