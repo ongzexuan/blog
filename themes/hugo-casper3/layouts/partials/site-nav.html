@@ -1,11 +1,11 @@
 <nav class="site-nav">
     <div class="site-nav-left">
-        <a class="site-nav-logo" href="{{ $.Site.BaseURL }}">{{ $.Site.Title }}</a>
+        <a class="site-nav-logo" href="{{ "/" | absURL }}">{{ $.Site.Title }}</a>
         
         <div class="site-nav-content">
             <ul class="nav" role="menu">
                 {{ range $.Site.Menus.main }}
-                <li class="nav-home" role="menuitem"><a href="{{ .URL }}">{{- .Name -}}</a></li>
+                <li class="nav-home" role="menuitem"><a href="{{ .URL | relURL }}">{{- .Name -}}</a></li>
                 {{ end }}
             </ul>
         </div>
