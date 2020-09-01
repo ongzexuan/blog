@@ -31,6 +31,7 @@
             {{ range $index, $element := $pages }}
                 {{- partial "post-card.html" (dict "context" . "index" $index "home" $.IsHome) -}}
             {{ end }}
+            {{ template "_internal/disqus.html" . }}
         </div>
     </div>
 </main>

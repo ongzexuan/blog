@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="{{ $styles.Permalink }}" />
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}darkgist.css" />    
 
+    {{ template "_internal/google_analytics_async.html" . }}
+
 </head>
 <body class="{{ block "body_class" . }} {{ end }}">
 

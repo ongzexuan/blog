@@ -59,9 +59,13 @@
                 <div class="post-content">
                     {{ .Content }}
                 </div>
-            </section>
+            </section>            
 
-        </article>
+        </article>    
+
+        <center>
+            {{ template "_internal/disqus.html" . }}    
+        </center>
 
     </div>
 </main>

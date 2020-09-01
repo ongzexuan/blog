@@ -6,10 +6,13 @@ author-slug = "zexuano"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 copyright = "Copyright © 2018–2020, zexuannotes"
+googleAnalytics = "UA-120020548-1"
+disqusShortname = "ongzexuan"
 
 [params]
   feature_image = "background.jpg"  
   logo = "logo.png"
+  env = "PUBLIC"
 
 [menu]
   [[menu.main]]
