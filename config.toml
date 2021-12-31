@@ -8,6 +8,7 @@ DefaultContentLanguage = "en"
 copyright = "Copyright © 2018–2020, zexuannotes"
 googleAnalytics = "UA-120020548-1"
 disqusShortname = "zexuannotes"
+publishDir = "ongzexuan.github.io"
 
 [params]
   feature_image = "background.jpg"  
