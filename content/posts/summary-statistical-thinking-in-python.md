@@ -5,7 +5,6 @@ author: Ze Xuan Ong
 feature_image: /summary-statistical-thinking-in-python/feature.png
 draft: true
 katex: true
-markup: "mmark"
 ---
 
 ### Bee Swarm Plots

@@ -5,7 +5,6 @@ author: Ze Xuan Ong
 feature_image: /summary-foundations-of-probability-python/feature.png
 draft: true
 katex: true
-markup: "mmark"
 ---
 
 ### Bernoulli Trial
