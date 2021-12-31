@@ -1,6 +1,6 @@
 # blog
 
-GitHub pages hosted blog for myself. This repo contains the source files.
+GitHub pages hosted blog for myself. This repo contains the source files. The static files (page itself) can be found [here](https://github.com/ongzexuan/ongzexuan.github.io).
 
 ## Setup (for when I forget my workflow)
 
