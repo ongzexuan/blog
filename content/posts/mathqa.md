@@ -2,7 +2,7 @@
 title: "Math Question Answering"
 date: 2021-10-21T18:00:00-00:00
 author: Ze Xuan Ong
-draft: false
+draft: true
 feature_image: /mathqa/feature.png
 tags: ["dev"]
 summary: "Describing my interest in MathQA, and collecting good papers and resources in a single place."

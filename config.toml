@@ -41,9 +41,9 @@ publishDir = "ongzexuan.github.io"
     url = "/tags/language/"
     weight = 50
   [[menu.main]]
-    identifier = "life"
-    name = "Life"
-    url = "/tags/life/"
+    identifier = "books"
+    name = "Books"
+    url = "/tags/books/"
     weight = 60
 
 [taxonomies]
