@@ -3,7 +3,7 @@ title: "Books to read for 2022"
 date: 2021-12-31T00:49:17-04:00
 author: Ze Xuan Ong
 draft: false
-feature_image: /books-2022/books.png
+feature_image: /books-2022/feature.png
 tags: ["books"]
 summary: "A snapshot of what's still on the shelf this year"
 ---
