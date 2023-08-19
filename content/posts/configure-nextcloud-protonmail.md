@@ -29,7 +29,7 @@ After installing the container on Unraid, you will want to first setup your logi
 5. Once that is done, you can enter `info` to verify that the login credentials are correct. Copy the password displayed, you will need it for the configuration on Nextcloud.
 6. Exit the console and restart the container.
 
-{{< figure src="/configure-nextcloud-protomail/top.png" caption="Default `top` processes in `protonmail-bridge`` container, some to kill." >}}
+{{< figure src="/configure-nextcloud-protonmail/top.png" caption="Default `top` processes in `protonmail-bridge`` container, some to kill." >}}
 
 If you run into errors such as "port in use", it is because you didn't kill the `socat` processes.
 
